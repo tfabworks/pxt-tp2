@@ -1,8 +1,8 @@
 
-enum OutputNumberFormat {
-    //% block="INTEGER"
+enum OutputNumberFormat_tp2 {
+    //% block="整数"
     INTEGER = 0,
-    //% block="FLOAT"
+    //% block="小数"
     FLOAT = 1
 }
 
@@ -12,15 +12,15 @@ namespace TP2 {
 
     /**
      * TFW-TP2の温度[℃]を返します。
-     * @param format number format, eg: OutputNumberFormat.INTEGER
+     * @param format number format, eg: OutputNumberFormat_tp2.INTEGER
      */
     //% blockId = TP2_getTemperature
-    //% block="Temperature[degC] (TP2) || %format"
+    //% block="温度[℃] || %format"
     //% group="TP2"
     //% weight=100
-    export function TP2_getTemperature(format: OutputNumberFormat = OutputNumberFormat.INTEGER): number {
+    export function TP2_getTemperature(format: OutputNumberFormat_tp2 = OutputNumberFormat_tp2.INTEGER): number {
         TP2_init_if_firsttime();
-        if (format === OutputNumberFormat.INTEGER) {
+        if (format === OutputNumberFormat_tp2.INTEGER) {
             return Math.round(DS1820pxt.temp1dp());
         }
         return DS1820pxt.temp1dp();
