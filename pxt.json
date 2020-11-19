@@ -16,7 +16,7 @@
         "source/LinkedList.h",
         "enums.d.ts",
         "shims.d.ts",
-        "_locales/ja/stem-strings.json"
+        "_locales/ja/TP2-strings.json"
     ],
     "testFiles": [
         "test.ts",

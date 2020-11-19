@@ -1,5 +1,0 @@
-{
-    "OutputNumberFormat.INTEGER|block":"整数",
-    "OutputNumberFormat.FLOAT|block": "小数",
-    "TP2.TP2_getTemperature|block": "温度[℃]"
-}
