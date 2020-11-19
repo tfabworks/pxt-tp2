@@ -6,7 +6,7 @@ enum OutputNumberFormat_tp2 {
     FLOAT = 1
 }
 
-//% weight=70 icon="\uf2c9" color=#0000ff block="TP2"
+//% weight=70 icon="\uf2c9" color=#008000 block="TP2"
 namespace TP2 {
     let TP2_init_done: boolean = false;
 
@@ -15,7 +15,7 @@ namespace TP2 {
      * @param format number format, eg: OutputNumberFormat_tp2.INTEGER
      */
     //% blockId = TP2_getTemperature
-    //% block="温度[℃] || %format"
+    //% block="温度[℃](TP2) || %format"
     //% group="TP2"
     //% weight=100
     export function TP2_getTemperature(format: OutputNumberFormat_tp2 = OutputNumberFormat_tp2.INTEGER): number {
