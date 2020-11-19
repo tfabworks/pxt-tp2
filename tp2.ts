@@ -6,7 +6,7 @@ enum OutputNumberFormat_tp2 {
     FLOAT = 1
 }
 
-//% weight=70 icon="\uf2c9" color=#008000 block="TP2"
+//% weight=70 icon="\uf2c9" color=#0000ff block="TP2"
 namespace TP2 {
     let TP2_init_done: boolean = false;
 
