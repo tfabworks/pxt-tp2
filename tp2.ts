@@ -15,7 +15,7 @@ namespace TP2 {
      * @param format number format, eg: OutputNumberFormat_tp2.INTEGER
      */
     //% blockId = TP2_getTemperature
-    //% block="温度[℃](TP2) || %format"
+    //% block="温度[℃] (TP2) || %format"
     //% group="TP2"
     //% weight=100
     export function TP2_getTemperature(format: OutputNumberFormat_tp2 = OutputNumberFormat_tp2.INTEGER): number {
