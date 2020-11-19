@@ -1,4 +1,13 @@
-namespace stem {
+
+enum OutputNumberFormat {
+    //% block="INTEGER"
+    INTEGER = 0,
+    //% block="FLOAT"
+    FLOAT = 1
+}
+
+//% weight=70 icon="\uf2c9" color=#008000 block="TP2"
+namespace TP2 {
     let TP2_init_done: boolean = false;
 
     /**
